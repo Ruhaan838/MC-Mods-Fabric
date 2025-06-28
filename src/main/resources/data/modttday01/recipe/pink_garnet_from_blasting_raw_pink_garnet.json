@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "cateroy": "misc",
+  "cookingtime": 100,
+  "experience": 0.3,
+  "group": "pink_garnet",
+  "ingredient": {
+    "item": "modttday01:raw_pink_garnet"
+  },
+  "result": {
+    "id": "modttday01:pink_garnet"
+  }
+}

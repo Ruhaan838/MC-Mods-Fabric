@@ -21,7 +21,9 @@ public class ModItemGroups {
 
     public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = registerItemGroup("pink_garnet_blocks_group",
             ModBlocks.PINK_GARNET_BLOCK,
-            List.of(ModBlocks.PINK_GARNET_BLOCK, ModBlocks.RAW_PINK_GARNET_BLOCK));
+            List.of(ModBlocks.PINK_GARNET_BLOCK, ModBlocks.RAW_PINK_GARNET_BLOCK,
+                    ModBlocks.PINK_GARNET_ORE, ModBlocks.PINK_GARNET_DEEPSLATE_ORE));
+
 
     public static ItemGroup registerItemGroup(String name, ItemConvertible icon, List<ItemConvertible> items) {
         Registry<ItemGroup> type = Registries.ITEM_GROUP;

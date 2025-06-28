@@ -6,5 +6,8 @@
   "block.modttday01.raw_pink_garnet_block": "Raw Pink Garnet Block",
 
   "itemgroup.modttday01.pink_garnet_items_group": "Pink Garnet Items",
-  "itemgroup.modttday01.pink_garnet_blocks_group": "Pink Garnet Blocks"
+  "itemgroup.modttday01.pink_garnet_blocks_group": "Pink Garnet Blocks",
+
+  "block.modttday01.pink_garnet_ore": "Pink Garnet Ore",
+  "block.modttday01.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore"
 }
