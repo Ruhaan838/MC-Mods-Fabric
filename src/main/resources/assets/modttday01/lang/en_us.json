@@ -1,13 +1,23 @@
 {
   "item.modttday01.pink_garnet": "Pink Garnet",
   "item.modttday01.raw_pink_garnet": "Raw Pink Garnet",
+  "item.modttday01.chisel": "Chisel",
+  "item.modttday01.cauliflower": "Cauliflower",
+  "item.modttday01.starlight_ashes": "StarLight Ashes",
 
   "block.modttday01.pink_garnet_block": "Pink Garnet Block",
   "block.modttday01.raw_pink_garnet_block": "Raw Pink Garnet Block",
+  "block.modttday01.magic_block": "Magic Block",
 
   "itemgroup.modttday01.pink_garnet_items_group": "Pink Garnet Items",
   "itemgroup.modttday01.pink_garnet_blocks_group": "Pink Garnet Blocks",
 
   "block.modttday01.pink_garnet_ore": "Pink Garnet Ore",
-  "block.modttday01.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore"
+  "block.modttday01.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+
+  "tooltip.modttday01.magic_block.tooltip": "This Block is have some §9MAGIC!§r.",
+  "tooltip.modttday01.chisel.shift_down": "This Item Can Convert Pink Garnet Block to Magical Block",
+  "tooltip.modttday01.chisel": "Press §eShift§r for more Information!",
+  "tooltip.modttday01.cauliflower": "This CauliFlower have HealBoost"
+
 }

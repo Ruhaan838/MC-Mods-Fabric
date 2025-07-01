@@ -2,6 +2,7 @@ package net.silentthor.modttday01;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.silentthor.modttday01.Item.ModItemGroups;
 import net.silentthor.modttday01.Item.ModItems;
 import net.silentthor.modttday01.block.ModBlocks;
@@ -17,5 +18,8 @@ public class TutorialMod implements ModInitializer {
 		ModItems.registerItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
+
 	}
 }

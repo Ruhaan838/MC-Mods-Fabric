@@ -17,13 +17,14 @@ public class ModItemGroups {
 
     public static final ItemGroup PINK_GARNET_ITEMS_GROUP = registerItemGroup("pink_garnet_items_group",
             ModItems.PINK_GARNET,
-            List.of(ModItems.PINK_GARNET, ModItems.RAW_PINK_GARNET));
+            List.of(ModItems.PINK_GARNET, ModItems.RAW_PINK_GARNET, ModItems.CHISEL, ModItems.CAULIFLOWER,
+                    ModItems.STARLIGHT_ASHES));
 
     public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = registerItemGroup("pink_garnet_blocks_group",
             ModBlocks.PINK_GARNET_BLOCK,
             List.of(ModBlocks.PINK_GARNET_BLOCK, ModBlocks.RAW_PINK_GARNET_BLOCK,
-                    ModBlocks.PINK_GARNET_ORE, ModBlocks.PINK_GARNET_DEEPSLATE_ORE));
-
+                    ModBlocks.PINK_GARNET_ORE, ModBlocks.PINK_GARNET_DEEPSLATE_ORE,
+                    ModBlocks.MAGIC_BLOCK));
 
     public static ItemGroup registerItemGroup(String name, ItemConvertible icon, List<ItemConvertible> items) {
         Registry<ItemGroup> type = Registries.ITEM_GROUP;

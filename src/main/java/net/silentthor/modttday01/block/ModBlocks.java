@@ -15,6 +15,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.silentthor.modttday01.TutorialMod;
+import net.silentthor.modttday01.block.custom.MagicBlock;
 
 public class ModBlocks {
 
@@ -37,6 +38,11 @@ public class ModBlocks {
     private static final AbstractBlock.Settings pink_garnet_deepslate_ore_settings = AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(pink_garnet_deepslate_ore_sound);
     public static final Block pink_garnet_deepslate_ore_block = new ExperienceDroppingBlock(UniformIntProvider.create(4, 5), pink_garnet_deepslate_ore_settings);
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore", pink_garnet_deepslate_ore_block);
+
+    private static final BlockSoundGroup magic_block_sound = BlockSoundGroup.AMETHYST_CLUSTER;
+    private static final AbstractBlock.Settings magic_block_setting = AbstractBlock.Settings.create().strength(1f);
+    public static final Block magic_block = new MagicBlock(magic_block_setting);
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block", magic_block);
 
 
     private static Block registerBlock(String name, Block block){
