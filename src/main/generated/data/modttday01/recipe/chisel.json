@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "modttday01:pink_garnet_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "B",
+    "B",
+    "S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "modttday01:chisel"
+  }
+}

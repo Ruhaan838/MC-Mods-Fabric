@@ -24,7 +24,9 @@ public class ModItemGroups {
             ModBlocks.PINK_GARNET_BLOCK,
             List.of(ModBlocks.PINK_GARNET_BLOCK, ModBlocks.RAW_PINK_GARNET_BLOCK,
                     ModBlocks.PINK_GARNET_ORE, ModBlocks.PINK_GARNET_DEEPSLATE_ORE,
-                    ModBlocks.MAGIC_BLOCK));
+                    ModBlocks.MAGIC_BLOCK, ModBlocks.PINK_GARNET_FENCE, ModBlocks.PINK_GARNET_SLAB, ModBlocks.PINK_GARNET_BUTTON,
+                    ModBlocks.PINK_GARNET_FENCE_GATE, ModBlocks.PINK_GARNET_STAIRS, ModBlocks.PINK_GARNET_PRESSURE_PLATE,
+                    ModBlocks.PINK_GARNET_WALL, ModBlocks.PINK_GARNET_DOOR, ModBlocks.PINK_GARNET_TRAPDOOR));
 
     public static ItemGroup registerItemGroup(String name, ItemConvertible icon, List<ItemConvertible> items) {
         Registry<ItemGroup> type = Registries.ITEM_GROUP;

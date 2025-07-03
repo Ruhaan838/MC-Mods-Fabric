@@ -9,6 +9,19 @@
   "block.modttday01.raw_pink_garnet_block": "Raw Pink Garnet Block",
   "block.modttday01.magic_block": "Magic Block",
 
+  "block.modttday01.pink_garnet_stairs": "Pink Garnet Stairs",
+  "block.modttday01.pink_garnet_slab": "Pink Garnet Slab",
+
+  "block.modttday01.pink_garnet_button": "Pink Garnet Button",
+  "block.modttday01.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+
+  "block.modttday01.pink_garnet_fence": "Pink Garnet Fence",
+  "block.modttday01.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
+  "block.modttday01.pink_garnet_wall": "Pink Garnet Wall",
+
+  "block.modttday01.pink_garnet_door": "Pink Garnet Door",
+  "block.modttday01.pink_garnet_trapdoor": "Pink Garnet TrapDoor",
+
   "itemgroup.modttday01.pink_garnet_items_group": "Pink Garnet Items",
   "itemgroup.modttday01.pink_garnet_blocks_group": "Pink Garnet Blocks",
 
@@ -18,6 +31,6 @@
   "tooltip.modttday01.magic_block.tooltip": "This Block is have some §9MAGIC!§r.",
   "tooltip.modttday01.chisel.shift_down": "This Item Can Convert Pink Garnet Block to Magical Block",
   "tooltip.modttday01.chisel": "Press §eShift§r for more Information!",
-  "tooltip.modttday01.cauliflower": "This CauliFlower have HealBoost"
+  "tooltip.modttday01.cauliflower": "This Cauliflower have HealBoost"
 
 }

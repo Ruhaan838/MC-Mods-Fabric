@@ -1,9 +1,7 @@
 package net.silentthor.modttday01.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -43,6 +41,44 @@ public class ModBlocks {
     private static final AbstractBlock.Settings magic_block_setting = AbstractBlock.Settings.create().strength(1f);
     public static final Block magic_block = new MagicBlock(magic_block_setting);
     public static final Block MAGIC_BLOCK = registerBlock("magic_block", magic_block);
+
+    private static final AbstractBlock.Settings pink_garnet_stairs_setting = AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(pink_garnet_sound);
+    public static final Block PINK_GARNET_STAIRS = registerBlock("pink_garnet_stairs",
+            new StairsBlock(ModBlocks.PINK_GARNET_BLOCK.getDefaultState(), pink_garnet_stairs_setting));
+
+    private static final AbstractBlock.Settings pink_garnet_slab_setting = AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(pink_garnet_sound);
+    public static final Block PINK_GARNET_SLAB = registerBlock("pink_garnet_slab",
+            new SlabBlock(pink_garnet_slab_setting));
+
+    private static final AbstractBlock.Settings pink_garnet_button_setting = AbstractBlock.Settings.create().strength(2f).noCollision().sounds(pink_garnet_sound);
+    public static final Block PINK_GARNET_BUTTON = registerBlock("pink_garnet_button",
+            new ButtonBlock(BlockSetType.IRON, 2, pink_garnet_button_setting));
+
+    private static final AbstractBlock.Settings pink_garnet_pressure_plate_setting = AbstractBlock.Settings.create().strength(2f).sounds(pink_garnet_sound);
+    public static final Block PINK_GARNET_PRESSURE_PLATE = registerBlock("pink_garnet_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON, pink_garnet_pressure_plate_setting));
+
+    private static final AbstractBlock.Settings pink_garnet_fence_setting = AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(pink_garnet_sound);
+    public static final Block PINK_GARNET_FENCE = registerBlock("pink_garnet_fence",
+            new FenceBlock(pink_garnet_fence_setting));
+
+    private static final AbstractBlock.Settings pink_garnet_fence_gate_setting = AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(pink_garnet_sound);
+    public static final Block PINK_GARNET_FENCE_GATE = registerBlock("pink_garnet_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, pink_garnet_fence_setting));
+
+    private static final AbstractBlock.Settings pink_garnet_wall_setting = AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(pink_garnet_sound);
+    public static final Block PINK_GARNET_WALL = registerBlock("pink_garnet_wall",
+            new WallBlock(pink_garnet_wall_setting));
+
+    private static final AbstractBlock.Settings pink_garnet_door_setting = AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(pink_garnet_sound).nonOpaque();
+    public static final Block PINK_GARNET_DOOR = registerBlock("pink_garnet_door",
+            new DoorBlock(BlockSetType.IRON, pink_garnet_fence_setting));
+
+    private static final AbstractBlock.Settings pink_garnet_trapdoor_setting = AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(pink_garnet_sound).nonOpaque();
+    public static final Block PINK_GARNET_TRAPDOOR = registerBlock("pink_garnet_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, pink_garnet_trapdoor_setting));
+
+
 
 
     private static Block registerBlock(String name, Block block){

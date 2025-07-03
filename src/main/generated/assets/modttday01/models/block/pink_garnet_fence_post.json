@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "modttday01:block/pink_garnet_block"
+  }
+}
